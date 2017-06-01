@@ -101,6 +101,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Config\Include\z.OrganizeInsertOptionsRules.Serialization\CustomSerializationFolder.config" />
+    <Content Include="App_Config\Include\z.OrganizeInsertOptionsRules\OrganizeInsertOptionsRules.config" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -113,6 +114,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pipelines\GetMasters\RunCustomInsertOptionsRules.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
