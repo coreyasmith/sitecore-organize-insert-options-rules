@@ -1,0 +1,42 @@
+﻿---
+ID: "dc99bfce-fe3c-4fad-a273-843c596c87a2"
+Parent: "64321e28-0c6f-4c20-8242-9860d814d721"
+Template: "664e5035-eb8c-4ba1-9731-a098fcc9127a"
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Feature/Teasers/Icon
+DB: master
+SharedFields:
+- ID: "fa307b86-da2a-44bd-887d-e2057cdb4948"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{A45C8E97-7609-439F-BE73-873BE8ED7EFB}">
+        <conditions>
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="82A83854676046D8888B3B7163970D57" />
+        </conditions>
+        <actions>
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="F8CE426F3AC542BD85226B57F9A2AF84"
+            insertoptionid="{E90D00B6-0BE9-48E0-9C3F-047274024270}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170601T021346Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9e0287d9-af90-41ad-8d36-332375e194d6"
+      Hint: Name
+      Value: Add Icon Option

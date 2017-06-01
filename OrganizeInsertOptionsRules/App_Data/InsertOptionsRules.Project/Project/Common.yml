@@ -1,0 +1,14 @@
+﻿---
+ID: "de4e414a-aaef-4d19-aa85-6693be2bed24"
+Parent: "8349d938-5f71-41f9-bdb2-a41fff64d11c"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Project/Common
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170601T021305Z

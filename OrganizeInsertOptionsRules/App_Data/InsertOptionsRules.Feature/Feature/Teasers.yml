@@ -1,0 +1,19 @@
+﻿---
+ID: "64321e28-0c6f-4c20-8242-9860d814d721"
+Parent: "3077ea00-75fc-40ae-8fd9-14508e738d73"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Feature/Teasers
+DB: master
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Type: TreelistEx
+  Value: "{664E5035-EB8C-4BA1-9731-A098FCC9127A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170601T021248Z

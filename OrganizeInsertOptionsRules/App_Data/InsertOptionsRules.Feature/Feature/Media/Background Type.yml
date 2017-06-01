@@ -1,0 +1,42 @@
+﻿---
+ID: "d9c9e085-5bcf-4b9d-ac2d-7b414b5677f6"
+Parent: "14b4c59f-8267-48f7-95ee-fbbb3a7fe5d4"
+Template: "664e5035-eb8c-4ba1-9731-a098fcc9127a"
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Feature/Media/Background Type
+DB: master
+SharedFields:
+- ID: "fa307b86-da2a-44bd-887d-e2057cdb4948"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{612DCAAB-79B1-4E6A-94D1-6A9E22CE4957}">
+        <conditions>
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="25064528FE1F4AA1A7455CC6B3C88D00" />
+        </conditions>
+        <actions>
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="5D4307A0771E4AE3A4D60EDE6485680A"
+            insertoptionid="{55A5BDAD-EB69-40F5-8195-CDA182E48EE4}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170601T021346Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9e0287d9-af90-41ad-8d36-332375e194d6"
+      Hint: Name
+      Value: Add Background Type Option

@@ -1,0 +1,42 @@
+﻿---
+ID: "4329d7fe-0671-4833-bd66-d8acf84bc026"
+Parent: "64466b46-7820-4f92-8314-06dd605ac195"
+Template: "664e5035-eb8c-4ba1-9731-a098fcc9127a"
+Path: /sitecore/system/Settings/Rules/Insert Options/Rules/Project/Common/Content Types/Employee
+DB: master
+SharedFields:
+- ID: "fa307b86-da2a-44bd-887d-e2057cdb4948"
+  Hint: Rule
+  Type: Rules
+  Value: |
+    <ruleset>
+      <rule
+        uid="{C8966E44-6B62-466C-A676-E880BE06064D}">
+        <conditions>
+          <condition
+            id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+            uid="9C8A97A79B504E2EA2B8FA32FBBEE5D4" />
+        </conditions>
+        <actions>
+          <action
+            id="{918FFCF0-F9E1-4DB6-A191-3EFA5A91C583}"
+            uid="66A27334CDD64AC5832ECED3F77C6BD1"
+            insertoptionid="{9671E92A-4AD3-46DF-AFF1-1542FD3D5BD9}" />
+        </actions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170601T021346Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "9e0287d9-af90-41ad-8d36-332375e194d6"
+      Hint: Name
+      Value: Add Employee Option
